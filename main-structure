@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MatrixJupi - Matrika Usode</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>MatrixJupi - Matrika Usode</h1>
+        <p>Izračunajte svojo Matriko Usode na podlagi datuma rojstva</p>
+    </header>
+
+    <main>
+        <section class="calculator">
+            <h2>Vnesite vaš datum rojstva</h2>
+            <form id="matrixForm">
+                <label for="birthdate">Datum rojstva:</label>
+                <input type="date" id="birthdate" required>
+                <button type="submit">Izračunaj</button>
+            </form>
+
+            <div id="result" class="hidden">
+                <h3>Vaša Matrika Usode</h3>
+                <p id="matrixOutput"></p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 MatrixJupi. Vse pravice pridržane.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
